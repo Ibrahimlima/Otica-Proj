@@ -1,0 +1,38 @@
+.contato{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #05031b;
+    padding: 100px 20px;
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+}
+
+.contato-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+
+}
+.contato-conteudo figure{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.contato-conteudo img{
+    width: 18px;
+}
+.contato-conteudo figcaption{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px){
+    .contato{
+        padding: 60px 20px;
+    }
+}
